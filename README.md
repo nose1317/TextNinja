@@ -1,4 +1,5 @@
 
+
 # TextNinja
 
 TextNinja is an R package designed for text analysis, cleaning, and natural language processing (NLP) tasks. This package provides functions to clean, count, and generate n-grams from text data. It is designed to help simplify and streamline common text processing tasks.
@@ -13,7 +14,7 @@ TextNinja is an R package designed for text analysis, cleaning, and natural lang
 
 To install the `TextNinja` package, use the following code in R:
 
-` devtools::install_github("your-username/TextNinja")
+` devtools::install_github("your-username/TextNinja")`
 
 ## Functions
 
@@ -36,7 +37,7 @@ This function cleans the text by:
 ` text <- "Hello, World!"`
   `clean_text(text)`
   
-    Output: "hello world"
+   Output: "hello world"
 
 ---
 
@@ -81,3 +82,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contributing
 
 If you'd like to contribute to the development of `TextNinja`, feel free to fork the repository, submit issues, or create pull requests. All contributions are welcome!
+
+## Installation
+
+To install the `TextNinja` package, first clone the repository:
+
+```bash
+git clone https://github.com/nose1317/TextNinja.git
+```
+Then, from R, run:
+
+`devtools::install("/path-here")` 
+
+note: replace with the true path
+
